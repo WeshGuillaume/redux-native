@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "device": "adb reverse tcp:8081 tcp:8081 && react-native run-android",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "react": "^0.14.8",
+    "react-native": "^0.22.2",
+    "react-redux": "^4.4.1",
+    "redux": "^3.3.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.6.0",
+    "eslint-config-zavatta": "^3.0.1",
+    "eslint-config-zavatta-react": "^1.2.3"
+  }
+}
